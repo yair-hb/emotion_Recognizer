@@ -5,10 +5,10 @@ import cv2
 import os 
 import imutils
 
-emotionName = 'Felicidad'
+#emotionName = 'Felicidad'
 #emotionName = 'Enojo'
 #emotionName = 'Triste'
-#emotionName = 'Sorpresa'
+emotionName = 'Sorpresa'
 
 folder = 'data'
 if not os.path.exists(folder):
